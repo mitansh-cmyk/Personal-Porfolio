@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #edf0ee;
+}
+.logo{
+    color:white;
+}
+h1, h2, h3 {
+    color: #0e0b0b;
+}
+
+a {
+    text-decoration: none;
+    color: #0078ff;
+}
+
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00b4d8;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 10%;
+    background: linear-gradient(135deg,#00b4d8, #0078ff);
+    color: #fff;
+}
+
+.home img {
+    width: 250px;
+    border-radius: 7%;
+    border: 5px solid #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #0078ff;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 60px 10%;
+}
+
+.about, .skills, .projects, .contact {
+    background-color: #fff;
+    margin:5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.skills ul, .contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ===== Projects ===== */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 1 calc(33% - 20px);
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ===== Contact ===== */
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
